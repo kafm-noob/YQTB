@@ -132,6 +132,7 @@ public class YQTB {
 
         if(resp.contains("填报成功")){
             logger.info("填报成功");
+            System.out.println("成功");
         }else{
             logger.warning("填报失败");
             logger.warning(resp);
